@@ -1,3 +1,46 @@
 .home-section{
     padding: 10px 20px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.image-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-caption {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 4em; /* Taille de la police */
+    font-weight: bold;
+    text-align: center;
+    padding: 0 20px;
+    width: auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre pour la lisibilité */
+}
+
+.image-caption.un {
+    bottom: 4em; /* Ajuster pour éloigner du bord */
+}
+
+.image-caption.deux {
+    top: 5em; /* Placer dans la partie supérieure */
+}
+
+.image-caption.trois {
+    bottom: 10px; /* Placer dans la partie supérieure */
 }

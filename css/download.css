@@ -1,0 +1,17 @@
+footer{
+    position: absolute;
+}
+
+.download-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    height: 30em;
+}
+
+
+.download-button{
+    margin-top: 20px;
+}
